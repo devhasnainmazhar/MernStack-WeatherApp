@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerLinks}}
+<body>
+
+
+  <!-- Navbar  -->
+
+{{>navbar}}
+
+    <!-- Main Header -->
+
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!-- Right Side div -->
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure class="errimg">
+                            <img src="images/404.jpg" alt="Shadow">
+                        </figure>
+                        <p>Welcome to Criminal's World </p>
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/"><button>Home</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer Code -->
+  
+    {{>footer}}
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">
+        
+    </script>
+</body>
+</html>
